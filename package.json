@@ -1,0 +1,33 @@
+{
+  "name": "free-birds-club",
+  "version": "1.0.0",
+  "description": "Official website for Free Birds Club ($FBCL) meme-token on Pump.fun",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx serve dist",
+    "build": "node scripts/build.js",
+    "lint": "eslint src scripts",
+    "test": "jest",
+    "analyze": "node scripts/analyze-bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FreeBirdsClub.git"
+  },
+  "author": "Free Birds Club",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FreeBirdsClub/issues"
+  },
+  "homepage": "https://fbcltoken.io",
+  "dependencies": {
+    "ejs": "^3.1.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "jest-axe": "^8.0.0",
+    "puppeteer": "^21.11.0",
+    "serve": "^14.2.3"
+  }
+}

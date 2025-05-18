@@ -1,0 +1,10 @@
+{
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "editor.formatOnSave": true,
+  "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  }
+}
